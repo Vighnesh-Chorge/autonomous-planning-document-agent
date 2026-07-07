@@ -1,0 +1,13 @@
+# Environment / secrets — NEVER commit this, it has your real API key
+.env
+
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Generated output (test artifacts, not source code)
+generated_docs/
+*.docx
